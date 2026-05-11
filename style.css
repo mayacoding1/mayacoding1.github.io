@@ -281,11 +281,15 @@ section p{
     grid-area: img-10;
 }
 
-.grid-container img{
+.grid-container img, .team-container2 img{
     height: 100%;
     width: 100%;
     border-radius: .5em;
     transition: 100ms ease;
+}
+
+.sponsors-container img, input[type="submit"], .cta-button{
+    transition: all 100ms ease;
 }
 
 .grid-container img:hover{
@@ -313,14 +317,14 @@ input{
 }
 
 input[type="submit"]{
-    display: inline-block;
     text-decoration: none;
     color: white;
     background-color: var(--primary-color);
     padding: .75em 1.25em;
-    border-radius: .5em;
+    border-radius: 0.5em;
+    border: none;
+    border-color: none;
     font-weight: 600;
-    transition: ease;
     font-size: 0.8rem;
     font-family: Poppins;
 }
