@@ -437,7 +437,11 @@ input[type="submit"]:hover{
     "img-5 img-5";
     gap: 0.6em;
     row-gap: 0.6em;
-}
+    }
+
+    .grid-container img{
+        height: 200px;
+    }
 
 }
 
