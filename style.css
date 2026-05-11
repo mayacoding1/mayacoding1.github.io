@@ -428,6 +428,20 @@ input[type="submit"]:hover{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .grid-container{
+    margin-top: 5%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "img-1 img-1 img-2"
+    "img-1 img-1 img-3"
+    "img-4 img-4 img-5";
+    gap: 1em;
+}
+
 }
 
 .contact-form input[type="email"], .contact-form input[type="text"], .contact-form textarea[id="message"], 
