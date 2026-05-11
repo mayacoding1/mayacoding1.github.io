@@ -423,7 +423,7 @@ input[type="submit"]:hover{
     }
 
     .content a img{
-        width: 60%;
+        width: 80%;
         height: auto;
     }
 }
