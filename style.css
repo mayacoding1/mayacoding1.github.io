@@ -424,7 +424,9 @@ input[type="submit"]:hover{
 
     .content a img{
         width: 80%;
-        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
