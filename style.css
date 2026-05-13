@@ -460,7 +460,7 @@ input[type="submit"]:hover{
     border-radius: 0.5em;
 }
 
-.contact-form textarea[id="message"]{
+.contact-form textarea[id="message"], .contact-form input[type="email"], .contact-form input[type="name"]{
     padding-left: 9px;
 }
 
